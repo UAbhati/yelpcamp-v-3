@@ -5,7 +5,7 @@ You must have node js and MongoDB install for it to work.To make it work First y
  
 npm init; 
  
-npm install express ejs body-parser method-override express-sanitizer moongose --save; 
+npm install express ejs body-parser method-override connect-flash express-sanitizer moongose express-session passport passport-local passport-local-mongoose --save; 
   
 The app can be started by using node app.js comment. 
 The app can be viewed at "localhost:3000/"(without double quotes) 
